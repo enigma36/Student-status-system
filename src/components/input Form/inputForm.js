@@ -1,12 +1,14 @@
 import "./inputForm.css";
 
 const InputForm = (props) => {
+
+
   return (
     <div>
-      {/*<label>username</label> */}
+      <label></label> 
       <input
-      name={props.name}
-      placeholder={props.placeholder} />
+        placeholder={props.placeholder}
+      />
     </div>
   );
 };
