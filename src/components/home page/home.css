@@ -1,0 +1,20 @@
+.home_container {
+    background-color: aqua;
+}
+
+.home_container button {
+    padding:8px;
+    width:10%;
+    
+}
+
+#login {
+    position: relative;
+    left:35%;
+}
+
+#signup {
+    position: relative;
+    left:36%;
+    
+}
