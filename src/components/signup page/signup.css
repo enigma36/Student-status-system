@@ -3,3 +3,12 @@
     position: relative;
     right:40%;
 }
+
+div span {
+    color:red;
+    display:none;
+}
+
+input:invalid[focused='true'] + div span {
+    display:block;
+}
